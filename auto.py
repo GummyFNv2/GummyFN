@@ -179,14 +179,14 @@ if CheckUpdate("auto.py", githuburl):
     os.execv(os.sys.executable,['python', *sys.argv])
 
 flag = False
-CheckUpdate("Settings.json.py", githuburl)
+CheckUpdate("main.py", githuburl)
 if CheckUpdate("requirements.txt", githuburl):
     print("requirements.txt got updated. Run INSTALL\n")
     flag = True
 
 
 
-CheckUpdate("config.json", githuburl)
+CheckUpdate("Settings.json", githuburl)
 
 
 
