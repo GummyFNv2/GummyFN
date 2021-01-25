@@ -4,7 +4,8 @@
     "Secret Password": "don't neeeded right now",
     "Account": {
       "Email": "bot gmail here",
-      "Password": "no password needed"
+      "Password": "no password needed",
+      "Prefix": "!"
     },
     "Control": {
       "Give full access to": ["your account id"],
